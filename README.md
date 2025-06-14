@@ -6,31 +6,22 @@
 
 ## Installation Steps
 
-### 1. Create Project Directory
+### 1. Clone the project
 ```bash
-mkdir school-management-crud
-cd school-management-crud
+git clone https://github.com/razorisuru/NextJs-School-CRUD-App
 ```
 
 ### 2. Install Dependencies
 ```bash
-npm install next@^15.0.0 react@^19.0.0 react-dom@^19.0.0 @prisma/client@^5.7.0 react-hot-toast@^2.4.1
-npm install -D eslint eslint-config-next prisma tailwindcss autoprefixer postcss
+npm install
 ```
 
-### 3. Initialize Tailwind CSS
+### 3. Set Up Prisma Database
 ```bash
-npx tailwindcss init -p
-```
-
-### 4. Set Up Prisma Database
-```bash
-npx prisma init
 npx prisma db push
 ```
 
-### 5. Create All Files
-Create the following file structure and copy the provided code:
+Files Structure
 
 ```
 school-management-crud/
