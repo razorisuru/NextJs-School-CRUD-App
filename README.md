@@ -85,7 +85,7 @@ The application will be available at `http://localhost:3000`
 - Fast API routes with Next.js 15
 
 ### ✅ Database Integration
-- Prisma ORM with SQLite
+- Prisma ORM with MYSQL
 - Data validation and error handling
 - Unique constraints for Student ID and Email
 
