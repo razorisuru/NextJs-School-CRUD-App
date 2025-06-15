@@ -47,7 +47,7 @@ school-management-crud/
 └── tailwind.config.js
 ```
 
-### 6. Run the Application
+### 4. Run the Application
 ```bash
 npm run dev
 ```
@@ -59,7 +59,7 @@ The application will be available at `http://localhost:3000`
 ### ✅ Complete CRUD Operations
 - **Create**: Add new students with validation
 - **Read**: View all students with search functionality
-- **Update**: Edit existing student information
+- **Update**: Edit existing student information with validation
 - **Delete**: Remove students with confirmation
 
 ### ✅ Modern UI/UX
